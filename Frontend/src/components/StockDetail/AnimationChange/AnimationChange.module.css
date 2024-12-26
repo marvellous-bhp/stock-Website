@@ -1,0 +1,84 @@
+.animationchange {
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.Itemchangeprice {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: auto;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #0000000a;
+}
+
+.Itemchangeprice .symbol {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.Itemchangeprice .percent {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.positive .percent {
+    color: #07ad25;
+}
+
+.positive {
+    border-left: 3px solid #07ad25;
+    padding: 2px 5px;
+}
+
+.negative {
+    border-left: 3px solid rgb(228, 18, 18);
+    padding: 2px 5px;
+}
+
+.negative .percent {
+    color: rgb(228, 18, 18);
+
+}
+
+.tickerList {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    white-space: nowrap;
+    animation: ticker 50s linear infinite;
+}
+
+.tickerList .Itemchangeprice:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    animation-play-state: paused;
+    border: 1px solid #00000050;
+    border-radius: 5px;
+
+}
+
+.tickerList .positive:hover {
+    border-left: 3px solid #07ad25;
+    padding: 2px 5px;
+}
+
+.tickerList .negative:hover {
+    border-left: 3px solid rgb(228, 18, 18);
+    padding: 2px 5px;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

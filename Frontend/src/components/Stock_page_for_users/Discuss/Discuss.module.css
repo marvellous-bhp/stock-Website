@@ -1,0 +1,38 @@
+.discuss {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+
+}
+
+.commentinfo {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.commenttext {
+
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.commenttext textarea {
+    width: 100%;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.6);
+    min-height: 100px;
+}

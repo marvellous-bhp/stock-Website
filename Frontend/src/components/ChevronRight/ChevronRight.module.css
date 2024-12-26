@@ -1,0 +1,30 @@
+.chevronRight.chevronRight {
+  right: 0;
+  bottom: 0;
+}
+
+.group.group {
+  left: 13.0625px;
+  top: 9.625px;
+  width: 6.875px;
+  height: 13.75px;
+}
+
+.group {
+  left: 13.0625px;
+  top: 9.625px;
+  width: 6.875px;
+  height: 13.75px;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.root {
+  position: relative;
+  width: 33px;
+  height: 33px;
+  align-items: flex-start;
+}

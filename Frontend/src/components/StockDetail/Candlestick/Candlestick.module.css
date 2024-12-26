@@ -1,0 +1,14 @@
+.chartbox {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    gap: 10px;
+}

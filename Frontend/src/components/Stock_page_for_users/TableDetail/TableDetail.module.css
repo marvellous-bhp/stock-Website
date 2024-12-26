@@ -1,0 +1,20 @@
+.tabledetail {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 269px;
+    background: rgba(186, 189, 240, 0.2);
+
+}
+
+.tabledetail div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.tabledetail div span {
+    color: rgb(161, 107, 46);
+}

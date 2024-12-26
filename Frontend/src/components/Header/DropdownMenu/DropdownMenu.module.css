@@ -1,0 +1,6 @@
+.dropdownGroup {
+    position: absolute;
+    top: 50px;
+    right: -20px;
+    z-index: 10;
+}

@@ -1,0 +1,59 @@
+.wiritecomment {
+  background-color: rgba(255, 255, 255.0.1);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+/* div{
+  display: block;
+} */
+.writecommentlabel {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.commentGroup{
+  display: block;
+}
+
+.commentbox {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.commentbox .ck-editor__editable {
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.ck.ck-reset.ck-editor.ck-rounded-corners {
+  /* fullPage: true, */
+  display: block!important;
+}
+.ck.ck-editor__main {
+  width: 100%;
+}
+.editor-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.commentbox button {
+  background-color: #093564;
+  width: fit-content;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  align-self: flex-end;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+

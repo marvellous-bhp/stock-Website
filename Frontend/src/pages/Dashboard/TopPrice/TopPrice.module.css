@@ -1,0 +1,122 @@
+.containertopstock {
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.topstock {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 64px;
+}
+
+.topincrease,
+.topdecrease {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ItemStock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px
+}
+
+.field span {
+    flex: 1;
+}
+
+.toptitle {
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+}
+
+.symbol {
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.symbol {
+    text-align: left;
+}
+
+.ItemStock span {
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    flex: 1;
+
+}
+
+.ItemStock .volume {
+    text-align: right;
+}
+
+.topincrease,
+.topdecrease {
+    background-color: rgba(116, 116, 117, 0.1);
+    padding: 24px 24px 32px;
+    box-shadow: 0px 0px 5px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.slideenter .percent {
+    color: rgb(11, 136, 32);
+    font-weight: 700;
+
+}
+
+.slideenter .symbol,
+.toptitle {
+    color: #3677a8;
+    font-weight: 700;
+}
+
+.itemfield {
+    color: #000000ad;
+}
+
+.slideleave .percent {
+    color: rgb(223, 10, 10);
+    font-weight: 700;
+}
+
+.slideleave .symbol {
+    color: #3677a8;
+    font-weight: 700;
+}
+
+.volume {
+    color: #00000094;
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+    .topstock {
+        margin: 0px 32px;
+    }
+}
+
+@media screen and (max-width: 450px) {}

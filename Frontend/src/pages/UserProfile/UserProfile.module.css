@@ -1,0 +1,361 @@
+.mobileLightSolid.mobileLightSolid {
+    left: 278px;
+    top: calc(50% - 63.5px);
+    width: 19px;
+    height: 19px;
+    transform: translateY(-50%);
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.envelopeLightSolid.envelopeLightSolid {
+    left: 270px;
+    top: calc(50% - -30px);
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+}
+
+.icon2 {
+    width: 100%;
+    height: 100%;
+}
+
+.root {
+    position: relative;
+    width: 100%;
+    align-items: flex-start;
+    background-color: #fff;
+    overflow: hidden;
+    background-image: url("../../../public/assets/login-background.avif");
+    min-height: 100vh;
+}
+
+.userprofile {
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.outlined {
+    white-space: nowrap;
+}
+
+.line20 {
+    position: absolute;
+    left: 33px;
+    top: 66px;
+    width: 871.0001px;
+    max-width: 100%;
+    height: 1px;
+    max-height: 100%;
+    overflow: visible;
+}
+
+.icon3 {
+    width: 100%;
+    height: 100%;
+}
+
+.image10 {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 188.1081px;
+    height: 48px;
+    background-image: url('/assets/logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registerForm {
+    width: fit-content;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    margin-top: 80px;
+    padding: 8px 24px 24px 24px;
+    border-radius: 10px;
+    background-color: #f1f7fe;
+}
+
+.frame2 {
+    width: min-content;
+    height: min-content;
+    padding: 10px 0;
+}
+
+.profile {
+    color: #3677a8;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.rectangle {
+    display: flex;
+    margin: 8px 0 16px;
+    padding: 8px;
+    width: 443px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.rectangleName {
+    position: relative;
+}
+
+.rectangleEmail {
+    position: relative;
+}
+
+.rectanglePassword {
+    position: relative;
+}
+
+.labelRegister {
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+.iconlyBoldProfile {
+    left: 28.3298%;
+    right: 69.1332%;
+    top: 29.625%;
+    bottom: 67.375%;
+    overflow: visible;
+    width: 23px;
+    height: 23px;
+}
+
+.icon4 {
+    width: 100%;
+    height: 100%;
+}
+
+.iconlyBoldProfile {
+    position: absolute;
+    top: 22px;
+    left: 14px;
+    width: 23px;
+    height: 23px;
+}
+
+
+/* icon email */
+
+.envelopeLightSolid.envelopeLightSolid {
+    position: absolute;
+    top: 33px;
+    left: 14px;
+    width: 23px;
+    height: 23px;
+    transform: translateY(-50%);
+}
+
+
+/* icon pass */
+
+.interfaceEssentialLock.interfaceEssentialLock {
+    position: absolute;
+    top: 24px;
+    left: 13px;
+    width: 25px;
+    height: 23px;
+}
+
+.frame4 {
+    left: 310px;
+    top: 237px;
+    width: min-content;
+    height: min-content;
+}
+
+.ten {
+    color: #8b8fa8;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.rectangle12 {
+    left: 251px;
+    top: 304px;
+    width: 443px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #f5f5f7;
+}
+
+.frame8 {
+    left: 310px;
+    top: calc(50% - 63px);
+    width: min-content;
+    height: min-content;
+    transform: translateY(-50%);
+}
+
+.input {
+    padding-left: 40px;
+    outline: none;
+    width: 100%;
+    color: #8b8fa8;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    border-color: #000;
+    border-radius: 10px;
+    background-color: #fff;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.inputName {
+    height: 48px;
+}
+
+.next_BTN {
+    margin: 20px 0;
+    margin-left: auto;
+    justify-content: flex-end;
+    width: 140px;
+    height: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18.5px;
+    border-radius: 8px;
+    background-color: #007dfa;
+}
+
+.next_Icon {
+    width: 89px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.next {
+    width: min-content;
+    height: min-content;
+    align-items: center;
+    background-color: #007dfa;
+}
+
+.signIn {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.icon5 {
+    width: 33px;
+    height: min-content;
+}
+
+.frame9 {
+    left: 603px;
+    top: 619px;
+    width: min-content;
+    height: min-content;
+}
+
+.AngNhap {
+    color: #007dfa;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.line2 {
+    left: 251px;
+    top: 602px;
+    width: 443px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    border-bottom: solid 1px #ececf0;
+    margin-bottom: -1px;
+}
+
+.rectangle3 {
+    left: 251px;
+    top: 398px;
+    width: 443px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #f5f5f7;
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.frame7 {
+    left: 310px;
+    top: calc(50% - -30px);
+    width: min-content;
+    height: min-content;
+    transform: translateY(-50%);
+}
+
+.loginGroup {
+    display: block;
+    margin: 8px 0;
+    padding: 8px 0;
+}
+
+.loginAction {
+    display: flex;
+    margin: 12px 0;
+    justify-content: space-between;
+}
+
+.inputerror {
+    border: 2px solid rgb(255, 43, 43) !important;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: -20px;
+    color: red;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
+    .rectangle {
+        width: 100%;
+        margin: 8px 0px 24px 0px
+    }
+
+    .registerForm {
+        margin: 50px auto;
+    }
+
+    .errorMessage {
+        bottom: -35px;
+    }
+}

@@ -1,0 +1,24 @@
+.root {
+  position: absolute;
+  left: 809px;
+  top: calc(50% - 603px);
+  width: 40px;
+  height: 40px;
+  align-items: flex-start;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.union1 {
+  position: absolute;
+  left: 8.3333%;
+  right: 8.3333%;
+  top: 8.3333%;
+  bottom: 8.3333%;
+  overflow: visible;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}

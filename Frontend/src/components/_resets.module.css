@@ -1,0 +1,33 @@
+:where(.storybrainResets),
+:where(.storybrainResets) * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  text-decoration: none;
+
+  overflow-wrap: anywhere;
+}
+
+
+
+
+:where(.storybrainResets) ul,
+:where(.storybrainResets) ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+:where(.storybrainResets) p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+:where(.storybrainResets) img {
+  object-fit: contain;
+}
+
+:where(.storybrainResets) svg {
+  overflow: visible;
+}

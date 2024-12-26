@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 100px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.leftheader {
+    align-items: center;
+}
+
+.rightheader {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.userCircle.userCircle {
+    left: 824px;
+    top: calc(50% - 709px);
+}
+
+.darkmode {
+    width: 66.2857px;
+    height: 48px;
+    background-image:
+        url('/assets/image2.jpg');
+}
+
+.search {
+
+    width: 236.4444px;
+    height: 38px;
+    color: #fff;
+}
+
+.btnsearch {
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+
+.logo {
+    width: 188.1081px;
+    height: 48px;
+    background-image:
+        url('../../../../public/assets/logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.btnsearch svg {
+    width: 10px;
+    height: 10px;
+
+}
+
+.homepage {
+    color: #fff;
+    font-size: 20px;
+    line-height: 27.5px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+
+}

@@ -1,0 +1,20 @@
+.companyinfo {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.symbol {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.follow {
+  color: yellow;
+}
+
+.unfollow {
+  color: white;
+}
